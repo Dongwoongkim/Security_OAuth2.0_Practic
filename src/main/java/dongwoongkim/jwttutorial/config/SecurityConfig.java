@@ -22,7 +22,6 @@ import org.springframework.security.web.SecurityFilterChain;
  * 4. 그 정보 + 추가정보 요구
  */
 
-
 @Configuration
 @EnableGlobalMethodSecurity(securedEnabled = true, // @Secured 활성화
                             prePostEnabled = true // @PreAuthorized 활성화, @PostAuthroized 활성화
